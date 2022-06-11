@@ -1,0 +1,61 @@
+name: EssentialsK
+version: '${project.version}'
+main: me.deveroonie.essentialsk.Main
+api-version: 1.18
+authors: [ Deveroonie ]
+description: Kinda like essentialsx but cool
+commands:
+  broadcast:
+    description: Broadcast a message to the whole server
+    usage: /broadcast <message>
+    permission: essentialsk.broadcast
+    aliases: ["bc", "kbc", "kbroadcast"]
+  feed:
+    description: Feed yourself
+    usage: /feed
+    permission: essentialsk.feed
+    aliases: [ "eat", "kf", "kfeed", "keat" ]
+  starve:
+    description: Starve yourself
+    usage: /starve
+    permission: essentialsk.starve
+    aliases: [ "uneat", "ks", "kstarve", "kuneat" ]
+  gamemodec:
+    description: Set yourself to creative mode!
+    usage: /gamemodec
+    permission: essentialsk.gamemode.c
+    aliases: [ "gmc", "kgmc", "gmcr", "kgmcr" ]
+  gamemodea:
+    description: Set yourself to adventure mode!
+    usage: /gamemodea
+    permission: essentialsk.gamemode.a
+    aliases: [ "gma", "kgma", "gmad", "kgmad" ]
+  gamemodes:
+    description: Set yourself to survival mode!
+    usage: /gamemodes
+    permission: essentialsk.gamemode.s
+    aliases: [ "gms", "kgms", "gmsu", "kgmsu" ]
+  gamemodesp:
+    description: Set yourself to spectator mode!
+    usage: /gamemodesp
+    permission: essentialsk.gamemode.sp
+    aliases: [ "gmsp", "kgmsp", "gmspe", "kgmspe" ]
+  fly:
+    description: Allow yourself to fly!
+    usage: /fly
+    permission: essentialsk.fly
+    aliases: [ "flap", "wings", "kflap", "kwings", "kfly" ]
+  heal:
+    description: Heal yourself up to full (10 hearts)!
+    usage: /heal
+    permission: essentialsk.heal
+    aliases: [ "fullhealth", "healthy", "kfullhealth", "khealthy", "kheal" ]
+  god:
+    description: Make yourself immune to damage
+    usage: /god
+    permission: essentialsk.god
+    aliases: [ "immune", "invulnerable", "kimmune", "kinvulnerable", "kgod" ]
+  essentialsk:
+    description: Plugin information
+    usage: /essentialsk
+    aliases: [ "ek", "kinfo", "k" ]
